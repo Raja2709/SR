@@ -1,0 +1,191 @@
+body {
+    height:100vh;
+    background: rgb(15, 14, 14);
+    display: grid;
+    place-content: end space-around;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgb(49, 47, 47);
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: .5rem;
+}
+
+
+/* All lines*/
+
+.first-line {
+    margin-bottom: .3rem;
+}
+
+.second-line {
+    margin-bottom: .3rem;
+}
+
+.third-line {
+    margin-bottom: .3rem;
+}
+
+.fourth-line {
+    margin-bottom: 1rem;
+}
+
+
+/*buttons*/
+
+.btn {
+    border: 1px solid rgb(92, 90, 90);
+    box-shadow: 2px 2px rgb(209, 209, 99);
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding: 12px 19px;
+}
+
+.KeyW {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.KeyA {
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.KeyS {
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.KeyD {
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.KeyY {
+    padding: 12px 18px;
+}
+
+.KeyI {
+    padding: 12px 21px;
+}
+
+.Backspace {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.Tab {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.Backslash {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.CapsLock {
+    padding-right: 20px;
+    padding-left: 11px;
+}
+
+.Enter {
+    padding-right: 36px;
+    padding-left: 36px;
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.Slash {
+    padding: 12px 21px;
+}
+
+.ShiftLeft {
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.Period {
+    padding: 12px 21px;
+}
+
+.ShiftRight {
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+.Space {
+    padding: 12px 125px;
+    border-top: 1px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    color: yellow;
+}
+
+.ctrl {
+    padding: 12px 16px;
+}
+
+.arrow {
+    padding: 5px 15px;
+    font-size: 1px;
+}
+
+.ArrowUp {
+    position: relative;
+    bottom: 25px;
+    right: 96px;
+}
+
+.ArrowDown {
+    position: relative;
+    top: 8px;
+}
+
+.ArrowRight {
+    position: relative;
+    top: 8px;
+}
+
+.ArrowLeft {
+    position: relative;
+    top: 8px;
+}
+
+
+/* Animation */
+
+.pressed {
+    box-shadow: -2px -2px rgb(209, 209, 99);
+    background-color:rgb(160, 146, 146);
+}
+
+.capsPressed {
+    background: yellow;
+    color: black;
+    /* box-shadow: -2px -2px rgb(209, 209, 99); */
+}
