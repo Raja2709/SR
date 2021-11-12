@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: blueviolet;
+    display: grid;
+    place-content: center;
+}
+
+.container{
+    
+    background:white;
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 18px ;
+}
+
+input{
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline:none;
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+    padding-left: 0;
+    margin-top:33px;
+}
+
+li{
+    font-weight: 500;
+    background: rgba(205, 211, 214, 0.952);
+    padding:4px 9px;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
